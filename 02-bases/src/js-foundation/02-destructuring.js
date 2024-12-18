@@ -1,0 +1,4 @@
+
+
+const {  POWERSHELL_DISTRIBUTION_CHANNEL } = process.env
+console.log( POWERSHELL_DISTRIBUTION_CHANNEL)
