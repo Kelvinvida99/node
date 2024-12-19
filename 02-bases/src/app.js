@@ -3,11 +3,10 @@
 //const { getUserById } = require('./js-foundation/03-callbacks')
 //const { buildMakePerson } = require('./js-foundation/05-factory')
 //const { uuid, getAge } = require('./plugins')
-const getPokemonById = require('./js-foundation/06-promises')
+//const getPokemonById = require("./js-foundation/06-promises");
+const {buildLogger} = require('./plugins');
 
-const id = 4;
+const logger = buildLogger('app.js');
 
-const name = getPokemonById(4, (pokemon) => {
-  console.log(pokemon);
-  
-});
+logger.log('Hola mundo')
+logger.error('esto es algo malo')
