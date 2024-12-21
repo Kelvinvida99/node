@@ -1,7 +1,7 @@
-# 02 Bases
+# 02 Bases de Node
 
-Levantar la aplicación
 
+Correr en Dev
 ```
 npm run dev
 ```
